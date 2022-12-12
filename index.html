@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    
+    <div id="container" class="flex flex-col items-center justify-center h-screen bg-gray-100">
+        <div id="dogDiv" class="flex bg-white rounded-lg shadow-lg p-4 flex-col items-center justify-center w-1/2">
+            <h1 class="text-4xl text-center m-4 py-2 w-full bg-gray-200 rounded"> Dog Rating </h1>
+            <div id="dogImageDiv">
+                <img id="dogImage" src="" alt="">
+            </div>
+            <div id="rating" class="">
+                <button id="like" onclick="likeImage()" class="bg-green-500 text-white p-2 rounded m-2">LIKE</button>
+                <button id="dislike" onclick="dislikeImage()" class="bg-red-500 text-white p-2 rounded m-2">DISLIKE</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
